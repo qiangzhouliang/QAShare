@@ -1,0 +1,3 @@
+include ':QAShare'
+include ':app'
+rootProject.name = "AndroidShare"

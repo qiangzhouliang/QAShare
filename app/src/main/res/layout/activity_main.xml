@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".ui.MainActivity">
+
+    <Button
+        android:id="@+id/btnSystemShare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="系统分享"
+        />
+
+    <Button
+        android:id="@+id/btnActionBarShare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="系统ActionBar分享"
+        />
+
+    <Button
+        android:id="@+id/btnCustomShare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="自定义分享"
+        />
+</LinearLayout>
